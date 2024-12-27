@@ -19,7 +19,7 @@ global.THUMB_IMAGE =
   "https://i.postimg.cc/FssKzLK7/20240622-140407.jpg,https://i.postimg.cc/FssKzLK7/20240622-140407.jpg";
 global.userImages =
   process.env.USER_IMAGES ||
-  "https://i.postimg.cc/3wrf9ccK/IMG-20240804-WA0000.jpg";
+  "https://files.catbox.moe/41sdu1.jpg";
 ///===========[global iMPORTS]====================//
 
 module.exports = {
