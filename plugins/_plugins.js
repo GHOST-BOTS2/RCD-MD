@@ -13,7 +13,7 @@ smd(
  },
  async (cld) => {
    const { exec } = require("child_process");
-   cld.reply("Restarting");
+   cld.reply("GHOST-MD BOT Restarting.....");
    exec("pm2 restart all");
  }
 );
@@ -29,7 +29,7 @@ smd(
   },
   async (cld) => {
     const { exec } = require("child_process");
-    cld.reply("Shutting down");
+    cld.reply("GHOST-MD BOT Shutting down....");
     exec("pm2 stop all");
   }
  );
