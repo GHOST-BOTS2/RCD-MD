@@ -1,4 +1,4 @@
-//RCD code
+//GHOST code
 const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
@@ -12,7 +12,7 @@ global.sudo = process.env.SUDO
   : "null";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "94789958225";
+  : "94741140620";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
@@ -26,12 +26,12 @@ module.exports = {
   menu: process.env.MENU || "",
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
-  VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`RCD-MD`",
-  author: process.env.PACK_AUTHER || "RCD-MD",
-  packname: process.env.PACK_NAME || "RCD",
-  botname: process.env.BOT_NAME || "RCD-MD",
-  ownername: process.env.OWNER_NAME || "RCD",
+  VERSION: process.env.VERSION || "3.0.0",
+  caption: process.env.CAPTION || "`GHOST-MD`",
+  author: process.env.PACK_AUTHER || "GHOST-MD",
+  packname: process.env.PACK_NAME || "GHOST",
+  botname: process.env.BOT_NAME || "GHOST-MD",
+  ownername: process.env.OWNER_NAME || "GHOST",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -53,9 +53,9 @@ global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/DEXTER-BOTS/RCD-MD";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vag1WQFJf05dF0pQeU3u/161";
-global.website = process.env.GURL || "https://chat.whatsapp.com/Cry8eSzZqW27t9H8uOcRIR";
-global.devs = "94789958225";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaobbRhG8l5Mmhh2IA3O";
+global.website = process.env.GURL || "https://chat.whatsapp.com/DhCdan60qzH0yoIxmybU3i";
+global.devs = "94741140620";
 global.msg_style = process.env.STYLE || "4";
 global.session_reset = process.env.SS_RESET || "false";
 global.gdbye = process.env.GOODBYE || "false";
